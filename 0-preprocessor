@@ -1,2 +1,0 @@
-#!/bib/bash
-ccg -E "$CFILE" > c
