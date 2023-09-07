@@ -1,2 +1,2 @@
 #!/bib/bash
-ccp -E "$CFILE" > c
+ccg -E "$CFILE" > c
