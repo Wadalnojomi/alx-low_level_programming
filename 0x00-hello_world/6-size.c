@@ -1,19 +1,21 @@
 #include <stdio.h>
 
-int main(void)
-{
 /**
  * main - Entry point
- * int - integer value
- * parameter - () hold value
- * parameter - \n new line
+ *
  * Return: Always 0 (Success)
  */
-printf("size of char: %zu byte(s)\n",sizeof(char));
-printf("size of int: %zu byte(s)\n",sizeof(int));
-printf("size of long int: %zu byte(s)\n",sizeof(long int));
-printf("size o long long int:%zu byte(s)\n",sizeof(long long int));
-printf("size of float: %zu byte(s)\n",sizeof(float));
+int main(void)
+{
+    printf("Size of char: %lu byte(s)\n", sizeof(char));
+    printf("Size of short int: %lu byte(s)\n", sizeof(short int));
+    printf("Size of int: %lu byte(s)\n", sizeof(int)); /* Size of integer */
+    printf("Size of long int: %lu byte(s)\n", sizeof(long int));
+    printf("Size of long long int: %lu byte(s)\n", sizeof(long long int));
+    printf("Size of float: %lu byte(s)\n", sizeof(float));
+    printf("Size of double: %lu byte(s)\n", sizeof(double));
+    printf("Size of long double: %lu byte(s)\n", sizeof(long double));
 
-return (0);
+    return (0);
 }
+
