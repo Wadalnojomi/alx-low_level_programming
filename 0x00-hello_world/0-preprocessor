@@ -1,2 +1,2 @@
-#!/bin/bash
-ccg -E "$CFILE" > c
+#!/bin/bas
+hgcc -E "$CFILE" > c
