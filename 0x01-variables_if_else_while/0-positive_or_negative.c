@@ -3,8 +3,7 @@
 #include <stdio.h>
 
  /**
-  * main - assign a random number each
-  * time it is executed
+  * main - Printing a random number eachtime it is executed
   */
 
 int main(void)
@@ -15,14 +14,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-	printf("is positive %d \n",(n));
+	printf("is positive %d \n");
 	}
 	else if (n == 0)
 	{
-	printf("is zero %d \n",(n));
+	printf("is zero %d \n");
 	}
 	else
 	{
-	printf("is negative %d \n",(n));	}
-        return (0); 
+	printf("is negative %d \n");
+	}
+	return (0); 
 }
