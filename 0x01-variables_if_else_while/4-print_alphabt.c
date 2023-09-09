@@ -4,6 +4,7 @@
  * main - Prints alphabet except e and q
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char letter;
@@ -12,6 +13,7 @@ int main(void)
 	if (letter != 'e' && letter != 'q')
 	putchar(letter);
 	}
+
 	putchar('\n');
 	return (0);
 }
