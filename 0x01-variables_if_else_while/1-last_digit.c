@@ -3,8 +3,7 @@
 #include <time.h>
 
  /**
-  * main - Prints different value every time you run this program
-  * 
+  * main - Assign a random number every time you run this program 
   * Return:Always 0 (Success)
   */
 
