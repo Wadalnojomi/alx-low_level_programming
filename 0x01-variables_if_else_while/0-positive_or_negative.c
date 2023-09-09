@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Prins a number evry time it run
+ * main - Entry point
  * Return: Always 0 (success)
  */
 
@@ -13,18 +13,19 @@ int main(void)
 
 	srand(time(0));
 	n = rand()  - RAND_MAX / 2;
+
 	printf("%d \n", n);
-	if (n > '0')
+	if (n > 0)
 	{
-	printf("is positive");
+	printf("is positive\n");
 	}
-	else if (n == '0')
+	else if (n < 0)
 	{
-	printf("is zero");
+	printf("is negative\n");
 	}
 	else
 	{
-	printf("is negative");
+	printf("is zero\n");
 	}
 	return (0);
 }
