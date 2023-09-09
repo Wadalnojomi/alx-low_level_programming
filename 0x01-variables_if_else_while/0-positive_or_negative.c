@@ -3,29 +3,26 @@
 #include <time.h>
 
 /**
- * main - Entry point
- * Return: Always 0 (success)
+ * main - Peint a number positive or negaive each time it is run
+ * Return: Always 0 
  */
-
-int main(void)
+int main(void) 
 {
 	int n;
 
 	srand(time(0));
-	n = rand()  - RAND_MAX / 2;
-
-	printf("%d \n", n);
+	n = rand() - RAND_MAX / 2;
+	printf("%d\n", n);
 	if (n > 0)
 	{
-	printf("is positive\n");
-	}
-	else if (n < 0)
+		printf("is positive\n");
+	} 
+	else if (n == 0) 
 	{
-	printf("is negative\n");
-	}
-	else
+		printf("is zero\n");		} 
+	else 
 	{
-	printf("is zero\n");
+		printf("is negative\n");
 	}
-	return (0);
+	return 0;
 }
