@@ -5,6 +5,7 @@
   * main - Prints the alphabet in lowercase followed uppercase
   * Return: Always 0 (success)
   */
+
 int main(void)
 {
 	int i = 'a';
