@@ -3,7 +3,7 @@
 #include <time.h>
 
  /**
-  * main - Prints the last digit each time it is execute
+  * main - Prints different value every time you run this program
   * Return:Always 0 (Success)
   */
 
