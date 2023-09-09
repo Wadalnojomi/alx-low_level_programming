@@ -4,6 +4,7 @@
  * main - Prints all numbers from 0 to 9
  * Return: always 0 (success)
  */
+
 int main(void)
 {
 	int x;
@@ -11,6 +12,7 @@ int main(void)
 	{
 	putchar(x + '0');
 	}
+
 	putchar('\n');
 	return (0);
 }
