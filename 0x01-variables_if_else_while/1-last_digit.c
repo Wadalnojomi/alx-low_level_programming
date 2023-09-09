@@ -3,9 +3,10 @@
 #include <time.h>
 
  /**
-  * main - Prints the last digit each time it is runs
+  * main - Prints the last digit each time it is execute
   * Return:Always 0 (Success)
   */
+
 int main(void)
 {
 	int n;
