@@ -4,7 +4,6 @@
 /**
  * main - Write a program that finds and prints the largest prime factor
  * number 612852475143, followed by a new line.
-
  * Return: 0
  **/
 
@@ -22,5 +21,5 @@ int main(void)
 		}
 	}
 	printf("%d\n", newValue);
-	return (0); 
+	return (0);
 }
