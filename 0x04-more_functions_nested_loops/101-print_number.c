@@ -2,24 +2,21 @@
 #include "main.h"
 
 /**
- * main - Write a program that finds and prints the largest prime factor
- * number 612852475143, followed by a new line.
- * Return: 0
- **/
+ * main - Print integer 
+ * Return nothing 
+ */
+void print_number(int n)
+{
+	unsigned int k = n;
 
-int main(void)
-{
-int newValue, count;
-long int number = 612852475143;
-
-for (count = 2; count <= number; count++)
-{
-if (number % count == 0)
-{
-number = number / count;
-newValue = count;
-}
-}
-printf("%d\n", newValue);
-return (0);
+	if (n < 0)
+	{
+		n *= -1;
+		k = n;
+		_putchar('-');
+	}
+	k /= 10;
+	if (k != 0)
+		print_number(k);
+	_putchar((unsigned int) n % 10 + '0');
 }
