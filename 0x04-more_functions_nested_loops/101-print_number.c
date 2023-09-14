@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * main - Print integer 
- * Return nothing 
+ * print_number - print an integer by _putchar
+ * @n: number to print
+ * Return nothing
  */
 void print_number(int n)
 {
