@@ -19,7 +19,8 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 	int i;
-	for ( i = 0; i < 5; i++)
+
+	for (i = 0; i < 5; i++)
 	{
 		if (*(ops[i].op) == *s && s[0] != '\0')
 		{
