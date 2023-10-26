@@ -1,0 +1,1 @@
+bitwise manipulation in c
